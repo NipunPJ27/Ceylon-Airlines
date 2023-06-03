@@ -1,0 +1,139 @@
+<!--<title>Ceylon Airlines</title>
+<link rel="stylesheet" href="#">
+<title>Ceylon Airline | Travel around the world</title>
+  <meta name="description" content="Discover seamless travel experiences and enjoy great deals on flights and holiday packages with Ceylon Airline. Explore our comprehensive guides, book your flights, manage your reservations, and check-in conveniently, all in one place.">
+  <meta name="robots" content="index, follow">
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">-->
+
+  <!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Ceylon Airline | Travel around the world</title>
+      <meta name="description" content="Discover seamless travel experiences and enjoy great deals on flights and holiday packages with Ceylon Airline. Explore our comprehensive guides, book your flights, manage your reservations, and check-in conveniently, all in one place.">
+      <meta name="robots" content="index, follow">
+      <meta charset="UTF-8">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+  <header>
+    <div class="header-logo">
+        <img src="/Air Ceylon 2/src/line.png" alt="Ceylon Airline logo" height="77px" width="77px">Ceylon Airlines
+    </div>
+    <div class="menu">
+      <button>Login or Signup</button>
+      <button>Menu</button>
+    </div>
+  </header>
+  
+  <div class="content">
+      <img src="/Air Ceylon 2/src/pexels-tanathip-rattanatum-2026398.jpg" alt="background image" height="504px">
+      <label class="radio-buttons"><input type="radio" name="flight-type" value="one-way"> One way</label>
+      <label><input type="radio" name="flight-type" value="returning"> Returning</label>
+    
+    <div class="input-row">
+      <div class="dropdowns">
+        <div class="departure-select">
+          <select>
+            <option value="">Select departure</option>
+            <!-- Add options here -->
+          </select>
+        </div>
+        
+        <div class="destination-select">
+          <select>
+            <option value="">Select destination</option>
+            <!-- Add options here -->
+          </select>
+        </div>
+      </div>
+      
+      <div class="date-select">
+        <div class="outbound-date">
+          <label for="outbound-date">Outbound</label>
+          <input type="date" id="outbound-date">
+        </div>
+        
+        <div class="date-select">
+          <label for="return-date">Return date</label>
+          <input type="date" id="return-date">
+        </div>
+        
+          <select class="passengers-select">
+            <option value="">Passengers</option>
+            <!-- Add options here -->
+          </select>
+
+          <select class="travel-class">
+            <option value="">Travel class</option>
+            <!-- Add options here -->
+          </select>
+        
+        <button class="search-button">Search</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="button-row">
+      <button>Manage booking</button>
+      <button>Check In</button>
+      <button>Frequent flyer</button>
+      <button>Flight schedule</button>
+      <button>Check flight status</button>
+    </div>
+
+    <!--Image container 1-->
+    <div class="container1">
+      <a href="#" class="image">
+          <img src="/Air Ceylon 2/src/pexels-cottonbro-studio-6700054(2).jpg" alt="Image" width="352" height="409">
+      </a>
+      <div class="overlay">
+          <div class="text">
+              <h2 class="topic">Experience the delux-sky connection</h2>
+              <p class="image-content">Join Ceylon Airline's Frequent flyer and unlock a world of incredible deals and deluxe experience!</p>
+          </div>
+          <button class="img-button">Button</button>
+      </div>
+    </div>
+
+  <footer>
+    <div class="footer-links">
+      <a href="#">About us</a> |
+      <a href="#">Help</a> |
+      <a href="#">Book</a> |
+      <a href="#">Manage</a> |
+      <a href="#">Before you fly</a> |
+      <a href="#">Where we fly</a> |
+      <a href="#">Experience</a> |
+      <a href="#">Frequent flyer</a>
+    </div>
+    
+    <div class="footer-middle">
+      <div class="footer-links">
+        <a href="#">Contact us</a> |
+        <a href="#">Privacy policy</a> |
+        <a href="#">Terms and conditions</a> |
+        <a href="#">Cybersecurity</a>
+      </div>
+      
+      <div class="connect">
+        <div class="connect-text">Connect with us</div>
+        <img src="" alt="" width="42px" height="42px">
+        <img src="" alt="" width="42px" height="42px">
+        <img src="" alt="" width="42px" height="42px">
+        <img src="" alt="" width="42px" height="42px">
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      © All rights reserved - Ceylon Airlines
+    </div>
+
+    <div class="footer-logo">
+        <img src="/Air Ceylon 2/src/line.png" alt="Ceylon Airline logo" width="88px" height="88px">
+    </div>
+  </footer>
+</body>
+</html>
