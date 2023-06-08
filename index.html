@@ -1,0 +1,207 @@
+<!--<title>Ceylon Airlines</title>
+<link rel="stylesheet" href="#">
+<title>Ceylon Airline | Travel around the world</title>
+  <meta name="description" content="Discover seamless travel experiences and enjoy great deals on flights and holiday packages with Ceylon Airline. Explore our comprehensive guides, book your flights, manage your reservations, and check-in conveniently, all in one place.">
+  <meta name="robots" content="index, follow">
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">-->
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <link rel="stylesheet" type="text/css" href="style.css" />
+      <title>Ceylon Airline | Travel around the world</title>
+      <meta
+        name="description"
+        content="Discover seamless travel experiences and enjoy great deals on flights and holiday packages with Ceylon Airline. Explore our comprehensive guides, book your flights, manage your reservations, and check-in conveniently, all in one place."
+      />
+      <meta name="robots" content="index, follow" />
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+    </head>
+    <body>
+      <header>
+        <div class="header-logo">
+          <img
+            src="./src/line.png"
+            alt="Ceylon Airline logo"
+            height="77px"
+            width="77px"
+          />Ceylon Airlines
+        </div>
+        <div class="menu">
+          <a id="Frequentf" href="#">Frequent flyer</a>
+          <a id="login-signup" href="#">Login or Sign up</a>
+        </div>
+          <div class="menu-icon" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+          <script src="script.js"></script>
+      </header>
+  
+      <div class="main">
+        <img
+          class="content"
+          src="./src/pexels-tanathip-rattanatum-2026398.jpg"
+          alt="background image"
+        />
+  
+        <div class="info">
+          <div class="search-text">Where to next?</div>
+          <div class="radio-buttons">
+            <label class="radio-buttons"
+              ><input type="radio" name="flight-type" value="one-way" /> One
+              way</label
+            >
+            <label
+              ><input type="radio" name="flight-type" value="returning" />
+              Returning</label
+            >
+          </div>
+  
+          <div class="input-row">
+            <div class="From-to">
+              <div class="departure-select">
+                <select>
+                  <option value="">Select departure</option>
+                  <!-- Add options here -->
+                </select>
+              </div>
+  
+              <div class="destination-select">
+                <select>
+                  <option value="">Select destination</option>
+                  <!-- Add options here -->
+                </select>
+              </div>
+            </div>
+  
+            <div class="date-select">
+              <div class="outbound-date">
+                <label for="outbound-date">Outbound</label>
+                <input type="date" id="outbound-date" />
+              </div>
+  
+              <div class="date-select">
+                <label for="return-date">Return date</label>
+                <input type="date" id="return-date" />
+              </div>
+  
+              <select class="passengers-select">
+                <option value="">Passengers</option>
+                <!-- Add options here -->
+              </select>
+  
+              <select class="travel-class">
+                <option value="">Travel class</option>
+                <!-- Add options here -->
+              </select>
+  
+              <button class="search-button">Search</button>
+            </div>
+          </div>
+        </div>
+  
+        <div class="button-row">
+          <button class="row-buttons">Manage booking</button>
+          <button class="row-buttons">Check In</button>
+          <button class="row-buttons">Frequent flyer</button>
+          <button class="row-buttons">Flight schedule</button>
+          <button class="row-buttons">Check flight status</button>
+        </div>
+  
+        <!--Images containers-->
+        <div class="image-row">
+          <div class="image-container">
+            <img
+              src="./src/pexels-cottonbro-studio-6700054(2).jpg"
+              alt="Image 1"
+              width="352px"
+              height="100%"
+            />
+            <button class="image-button">Frequent flyer</button>
+            <span class="image-caption"
+              >Join Ceylon Airline's Frequent flyer and unlock a world of
+              incredible deals and deluxe experience!</span
+            >
+          </div>
+          <div class="image-container">
+            <img
+              src="./src/pexels-flo-dahm-699466.jpg"
+              alt="Image 2"
+              width="352px"
+              height="100%"
+            />
+            <button class="image-button">Offers & promotions</button>
+            <span class="image-caption"
+              >"Paris awaits<br> $882 roundtrip <br> book now!"</span
+            >
+          </div>
+          <div class="column">
+            <div class="image-container-1">
+              <img
+                src="./src/pexels-oleksandr-pidvalnyi-1008155.jpg"
+                alt="Image 3"
+                width="310px"
+                height="100%"
+              />
+              <button class="image-button">Trending</button>
+              <span class="image-caption"
+                >Here's top traveling destionations for month of May around the
+                world</span
+              >
+            </div>
+            <div class="image-container-1">
+              <img
+                src="./src/pexels-anna-shvets-3943881.jpg"
+                alt="Image 4"
+                width="310px"
+                height="100%"
+              />
+              <button class="image-button">Fly confidently</button>
+              <span class="image-caption">Covid-19 restrictions</span>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <footer>
+        <div class="footer-links">
+          <a href="#">About us</a> | <a href="#">Help</a> | <a href="#">Book</a> |
+          <a href="#">Manage</a> | <a href="#">Before you fly</a> |
+          <a href="#">Where we fly</a> | <a href="#">Experience</a> |
+          <a href="#">Frequent flyer</a>
+        </div>
+  
+        <div class="footer-middle">
+          <div class="footer-links">
+            <a href="#">Contact us</a> | <a href="#">Privacy policy</a> |
+            <a href="#">Terms and conditions</a> |
+            <a href="#">Cybersecurity</a>
+          </div>
+  
+          <div class="connect">
+            <div class="connect-text">Connect with us</div>
+            <img src="" alt="fb" width="42px" height="42px" />
+            <img src="" alt="insta" width="42px" height="42px" />
+            <img src="" alt="twiter" width="42px" height="42px" />
+            <img src="" alt="img4" width="42px" height="42px" />
+          </div>
+        </div>
+  
+        <div class="footer-bottom">© All rights reserved - Ceylon Airlines</div>
+  
+        <div class="footer-logo">
+          <img
+            src="./src/line.png"
+            alt="Ceylon Airline logo"
+            width="88px"
+            height="88px"
+          />
+        </div>
+      </footer>
+    </body>
+  </html>
